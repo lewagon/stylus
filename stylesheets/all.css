@@ -9033,6 +9033,30 @@ button.close {
     color: white;
     padding-top: 0;
     padding-bottom: 0; } }
+/* line 1, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+#banner {
+  background-image: url("../images/background.jpg");
+  color: white;
+  padding: 150px 0;
+  background-size: cover;
+  height: 650px; }
+  /* line 8, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  #banner h1 {
+    font-size: 50px;
+    color: white; }
+  /* line 12, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  #banner #banner p {
+    font-size: 25px;
+    font-weight: 100; }
+
+/* line 18, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+.card {
+  padding: 10px;
+  font-weight: 300; }
+  /* line 21, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  .card h2 {
+    font-size: 20px; }
+
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
@@ -9050,6 +9074,6 @@ body {
   padding-bottom: 8em; }
 
 /* line 25, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
-.blue-bg {
+.background-blue {
   background: #469AE0;
   color: white; }
