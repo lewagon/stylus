@@ -9033,26 +9033,10 @@ button.close {
     color: white;
     padding-top: 0;
     padding-bottom: 0; } }
-/* line 1, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/modules/_banner.css.scss */
-#banner {
-  background-image: url("../images/background.jpg");
-  color: white;
-  padding: 150px 0;
-  background-size: cover;
-  height: 650px; }
-  /* line 8, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/modules/_banner.css.scss */
-  #banner h1 {
-    font-size: 50px;
-    color: white; }
-  /* line 12, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/modules/_banner.css.scss */
-  #banner #banner p {
-    font-size: 25px;
-    font-weight: 100; }
-
 /* -------------------------------------
- * Elements style
+ * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
-/* line 10, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
+/* line 11, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   color: #141414; }
@@ -9060,20 +9044,12 @@ body {
 /* -------------------------------------
  * Usefull classes
  * ------------------------------------- */
-/* line 19, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
-.card {
-  padding: 10px;
-  font-weight: 300; }
-  /* line 22, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
-  .card h2 {
-    font-size: 20px; }
-
-/* line 27, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
+/* line 20, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
 .padded {
   padding-top: 8em;
   padding-bottom: 8em; }
 
-/* line 32, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
+/* line 25, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/all.css.scss */
 .blue-bg {
   background: #469AE0;
   color: white; }
