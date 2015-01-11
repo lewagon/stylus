@@ -6745,8 +6745,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/fonts/font-awesome/fontawesome-webfont.eot");
-  src: url("/fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("/fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"), url("/fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 /* line 4, /usr/local/var/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/font-awesome-sass-4.2.2/assets/stylesheets/font-awesome/_core.scss */
@@ -9035,7 +9035,7 @@ button.close {
     padding-bottom: 0; } }
 /* line 1, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/modules/_banner.css.scss */
 #banner {
-  background-image: url(../../images/background.jpg);
+  background-image: url("../images/background.jpg");
   color: white;
   padding: 150px 0;
   background-size: cover;
