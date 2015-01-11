@@ -8965,11 +8965,10 @@ button.close {
   /* line 60, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
-    display: block;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px; }
-  /* line 70, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 69, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -8979,30 +8978,30 @@ button.close {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 79, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+    /* line 78, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 84, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 83, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg, .navbar-wagon .navbar-brand object {
     height: 50px;
     padding: 0px; }
-  /* line 89, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 88, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 97, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 96, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 104, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 103, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 109, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 108, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9022,11 +9021,11 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 131, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 130, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-brand img, .navbar-brand svg, .navbar-brand object {
     height: 50px; }
 
-  /* line 134, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
+  /* line 133, /Users/papillard/Desktop/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     display: block;
