@@ -1,0 +1,40 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Varela+Round");
+
+// Font-size and line-height
+$base-size: 16px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+$grey: #F7F7F7;
+$red: #EE5F5B;
+$blue: #469AE0;
+$yellow: #FDB631;
+$orange: #E67E22;
+$green: #32B796;
+$purple: #6452BD;
+
+// Palette
+$x-dark-grey: darken($grey, 90%);
+$dark-grey: darken($grey, 70%);
+$light-grey: lighten($grey, 40%);
+$x-light-grey: darken($grey, 80%);
+
+/* -------------------------------------
+ * Bootstrap sass variable
+ * (see http://getbootstrap.com/customize/#less-variables)
+ * ------------------------------------- */
+@import "bootstrap_variables";
+
+/* -------------------------------------
+ * External SCSS
+ * ------------------------------------- */
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";

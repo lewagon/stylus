@@ -1,0 +1,141 @@
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+$color: white;
+$bg: transparent;
+$height: 50px;
+$vertical-padding: 5px;
+$horizontal-padding: 20px;
+$border-bottom-width: 0;
+$border-bottom-color: grey;
+
+/* -------------------------------------
+ * Navbar button
+ * ------------------------------------- */
+$btn-height: 40px;
+$btn-bg: lightgrey;
+$btn-color: white;
+$btn-horizontal-padding: 10px;
+$btn-radius: 4px;
+
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+$profile-radius: 50%;
+$profile-border-color: white;
+$profile-border-width: 2px;
+
+
+/* -------------------------------------
+ * SCSS code
+ * ------------------------------------- */
+.navbar-wagon{
+  background: $bg;
+  border: none;
+  font-weight: 400;
+  padding-left: $horizontal-padding;
+  padding-right: $horizontal-padding;
+  border-bottom: $border-bottom-width solid $border-bottom-color;
+  min-height: 0;
+
+
+  .navbar-nav > li > a,
+  .navbar-nav > li > a:hover,
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:hover,
+  .navbar-nav > .open > a:focus   {
+    color: $color;
+    line-height: $height;
+    padding-top: $vertical-padding;
+    padding-bottom: $vertical-padding;
+  }
+
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:hover,
+  .navbar-nav > .open > a:focus {
+    background-color: transparent;
+  }
+
+  .navbar-brand,
+  .navbar-brand:hover
+   {
+    display: block;
+    color: $color;
+    padding-top: $vertical-padding;
+    padding-bottom: $vertical-padding;
+  }
+
+
+  .navbar-nav > li > a.btn {
+    line-height: $btn-height;
+    padding: 0 $btn-horizontal-padding;
+    color: $btn-color;
+    border-radius: $btn-radius;
+    margin-top: ($height + 2 * $vertical-padding - $btn-height) / 2;
+    font-weight: bold;
+    background-color: $btn-bg;
+    font-size: 12px;
+    &:hover{
+      background-color: darken($btn-bg, 30%);
+    }
+  }
+
+  .navbar-brand img, .navbar-brand svg, .navbar-brand object{
+    height: $height;
+    padding: 0px;
+  }
+
+  .img-avatar{
+    border: $profile-border-width solid $profile-border-color;
+    box-shadow: 0 0 2px rgb(200, 200, 200);
+    height: $height - (2 * $profile-border-width);
+    margin-right: 10px;
+    border-radius: $profile-radius;
+  }
+
+  .navbar-toggle {
+    border-color: #dddddd;
+    width: 45px;
+    background: transparent;
+  }
+
+
+  .navbar-nav > li > .dropdown-menu{
+    border-radius: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-nav > li > .dropdown-menu:before{
+    position: absolute;
+    background: white;
+    height: 10px;
+    width: 10px;
+    content: "\00a0";
+    display: block;
+    left: 50%;
+    margin-left: -5px;
+    top: -5px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    z-index: -1;
+  }
+}
+
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .navbar-brand img, .navbar-brand svg, .navbar-brand object{
+    height: 50px;
+  }
+  .navbar-wagon .navbar-brand,
+  .navbar-wagon .navbar-brand:hover
+   {
+    display: block;
+    color: $color;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

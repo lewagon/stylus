@@ -1,3 +1,35 @@
-@import "bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+@import "utilities/config";
+@import "layout/index";
+@import "modules/index";
+
+
+/* -------------------------------------
+ * Elements style
+ * ------------------------------------- */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #141414;
+}
+
+/* -------------------------------------
+ * Usefull classes
+ * ------------------------------------- */
+
+.card{
+  padding: 10px;
+  font-weight: 300;
+  h2{
+    font-size: 20px;
+  }
+}
+
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.blue-bg {
+  background: $blue;
+  color: white;
+}
