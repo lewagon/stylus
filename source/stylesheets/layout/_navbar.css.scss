@@ -1,14 +1,19 @@
 /* -------------------------------------
- * Colors
+ * Colors & Fonts
  * ------------------------------------- */
 $navbar-color: white;
+$navbar-hover-color: $yellow;
+$navbar-font-family: "Montserrat", sans-serif; // Google fonts
 $navbar-bg: transparent;
+
+/* -------------------------------------
+ * Box model
+ * ------------------------------------- */
 $navbar-height: 50px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
 $navbar-border-bottom-color: grey;
-$navbar-font-family: "Montserrat", sans-serif;
 
 /* -------------------------------------
  * Navbar button
@@ -40,19 +45,23 @@ $navbar-profile-border-width: 2px;
   min-height: 0;
 
   .navbar-nav > li > a,
-  .navbar-nav > li > a:hover,
   .navbar-nav > .open > a,
-  .navbar-nav > .open > a:hover,
-  .navbar-nav > .open > a:focus   {
+  .navbar-nav > li > a:focus,
+  .navbar-nav > .open > a:focus {
     color: $navbar-color;
     line-height: $navbar-height;
     padding-top: $navbar-vertical-padding;
     padding-bottom: $navbar-vertical-padding;
+    background-color: transparent;
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
   }
 
-  .navbar-nav > .open > a,
-  .navbar-nav > .open > a:hover,
-  .navbar-nav > .open > a:focus {
+  .navbar-nav > li > a:hover,
+  .navbar-nav > .open > a:hover{
+    color: $navbar-hover-color;
     background-color: transparent;
   }
 
