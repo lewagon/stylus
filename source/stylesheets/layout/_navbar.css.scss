@@ -1,53 +1,53 @@
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
-$color: white;
-$bg: transparent;
-$height: 50px;
-$vertical-padding: 5px;
-$horizontal-padding: 20px;
-$border-bottom-width: 0;
-$border-bottom-color: grey;
+$navbar-color: white;
+$navbar-bg: transparent;
+$navbar-height: 50px;
+$navbar-vertical-padding: 5px;
+$navbar-horizontal-padding: 20px;
+$navbar-border-bottom-width: 0;
+$navbar-border-bottom-color: grey;
+$navbar-font-family: "Montserrat", sans-serif;
 
 /* -------------------------------------
  * Navbar button
  * ------------------------------------- */
-$btn-height: 40px;
-$btn-bg: lightgrey;
-$btn-color: white;
-$btn-horizontal-padding: 10px;
-$btn-radius: 4px;
+$navbar-btn-height: 40px;
+$navbar-btn-bg: lightgrey;
+$navbar-btn-color: white;
+$navbar-btn-horizontal-padding: 10px;
+$navbar-btn-radius: 2px;
 
 /* -------------------------------------
  * Navbar profile picture
  * ------------------------------------- */
-$profile-radius: 50%;
-$profile-border-color: white;
-$profile-border-width: 2px;
-
+$navbar-profile-radius: 50%;
+$navbar-profile-border-color: white;
+$navbar-profile-border-width: 2px;
 
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
 .navbar-wagon{
-  background: $bg;
+  background: $navbar-bg;
+  font-family: $navbar-font-family;
   border: none;
   font-weight: 400;
-  padding-left: $horizontal-padding;
-  padding-right: $horizontal-padding;
-  border-bottom: $border-bottom-width solid $border-bottom-color;
+  padding-left: $navbar-horizontal-padding;
+  padding-right: $navbar-horizontal-padding;
+  border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
   min-height: 0;
-
 
   .navbar-nav > li > a,
   .navbar-nav > li > a:hover,
   .navbar-nav > .open > a,
   .navbar-nav > .open > a:hover,
   .navbar-nav > .open > a:focus   {
-    color: $color;
-    line-height: $height;
-    padding-top: $vertical-padding;
-    padding-bottom: $vertical-padding;
+    color: $navbar-color;
+    line-height: $navbar-height;
+    padding-top: $navbar-vertical-padding;
+    padding-bottom: $navbar-vertical-padding;
   }
 
   .navbar-nav > .open > a,
@@ -59,37 +59,36 @@ $profile-border-width: 2px;
   .navbar-brand,
   .navbar-brand:hover
    {
-    color: $color;
-    padding-top: $vertical-padding;
-    padding-bottom: $vertical-padding;
+    color: $navbar-color;
+    padding-top: $navbar-vertical-padding;
+    padding-bottom: $navbar-vertical-padding;
   }
 
-
   .navbar-nav > li > a.btn {
-    line-height: $btn-height;
-    padding: 0 $btn-horizontal-padding;
-    color: $btn-color;
-    border-radius: $btn-radius;
-    margin-top: ($height + 2 * $vertical-padding - $btn-height) / 2;
+    line-height: $navbar-btn-height;
+    padding: 0 $navbar-btn-horizontal-padding;
+    color: $navbar-btn-color;
+    border-radius: $navbar-btn-radius;
+    margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
     font-weight: bold;
-    background-color: $btn-bg;
+    background-color: $navbar-btn-bg;
     font-size: 12px;
     &:hover{
-      background-color: darken($btn-bg, 30%);
+      background-color: darken($navbar-btn-bg, 30%);
     }
   }
 
   .navbar-brand img, .navbar-brand svg, .navbar-brand object{
-    height: $height;
+    height: $navbar-height;
     padding: 0px;
   }
 
   .img-avatar{
-    border: $profile-border-width solid $profile-border-color;
+    border: $navbar-profile-border-width solid $navbar-profile-border-color;
     box-shadow: 0 0 2px rgb(200, 200, 200);
-    height: $height - (2 * $profile-border-width);
+    height: $navbar-height - (2 * $navbar-profile-border-width);
     margin-right: 10px;
-    border-radius: $profile-radius;
+    border-radius: $navbar-profile-radius;
   }
 
   .navbar-toggle {
@@ -97,7 +96,6 @@ $profile-border-width: 2px;
     width: 45px;
     background: transparent;
   }
-
 
   .navbar-nav > li > .dropdown-menu{
     border-radius: 0;
@@ -133,7 +131,7 @@ $profile-border-width: 2px;
   .navbar-wagon .navbar-brand:hover
    {
     display: block;
-    color: $color;
+    color: $navbar-color;
     padding-top: 0;
     padding-bottom: 0;
   }

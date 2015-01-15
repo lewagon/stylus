@@ -7,22 +7,14 @@
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #141414;
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* -------------------------------------
  * Usefull classes
  * ------------------------------------- */
-
 .padded {
   padding-top: 8em;
   padding-bottom: 8em;
-}
-
-.background-blue {
-  background: $blue;
-  color: white;
 }
