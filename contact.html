@@ -45,7 +45,7 @@
                 <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
               </ul>
             </li>
-            <li><a href="/" class="btn">Order your stylus</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order your stylus</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -82,7 +82,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -93,14 +93,14 @@
             <form action="">
               <div class="form-group">
                 <label for="email">Your email</label>
-                <input type="email">
+                <input type="email" id="email" class="form-control" placeholder="alan@turing.org">
               </div>
-              <div class="form-group"></div>
+              <div class="form-group">
+                <label for="telephone">Your phone</label>
+                <input type="text" id="telephone" class="form-control" placeholder="+33 6 42 42 42 42">
+              </div>
+              <input type="submit" value="Join the wait list" class="btn btn-danger">
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
