@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">
-            <img src="images/logo.svg" alt="Stylus">
+            <img src="images/logo.svg" />
           </a>
         </div>
 
@@ -72,28 +72,28 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card">
-          <object data="images/paper.svg" type="image/svg+xml"></object>
+          <img src="images/paper.svg" />
           <h2>Natural writing</h2>
           <p>Don't change your habits, write with a pen <strong>on paper notebooks</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card">
-          <object data="images/computer.svg" type="image/svg+xml"></object>
+          <img src="images/computer.svg" />
           <h2>Sync. copy</h2>
           <p>Stylus instantaneously copy your text on your computer, <strong>in real-time</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card">
-          <object data="images/analytics.svg" type="image/svg+xml"></object>
+          <img src="images/analytics.svg" />
           <h2>Analytics</h2>
           <p>Get feedbacks on the way you write, <strong>your favorite words, your frequent mistakes</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card">
-          <object data="images/data.svg" type="image/svg+xml"></object>
+          <img src="images/data.svg" />
           <h2>Storing your texts</h2>
           <p>Everything line writen with your stylus is stored in the cloud, so that <strong>it's never lost</strong></p>
         </div>
@@ -143,7 +143,13 @@ var marker = new google.maps.Marker({
             <h4 class="modal-title" id="myModalLabel">Order your stylus</h4>
           </div>
           <div class="modal-body">
-            ...
+            <form action="">
+              <div class="form-group">
+                <label for="email">Your email</label>
+                <input type="email">
+              </div>
+              <div class="form-group"></div>
+            </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
