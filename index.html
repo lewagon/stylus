@@ -65,34 +65,37 @@
       <div class="col-xs-6"></div>
     </div>
   </div>
+  <div class="text-center scroll-btn">
+    <a href="#description"><i class="fa fa-angle-down fa-6 pulse"></i></a>
+  </div>
 </div>
 
-<div class="bg-primary padded">
+<div class="bg-primary padded" id="description">
   <div class="container text-center" id="features">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card">
+        <div class="card" data-sr="enter bottom and scale up 20% over 1s">
           <img src="images/paper.svg" />
           <h2>Natural writing</h2>
           <p>Don't change your habits, write with a pen <strong>on paper notebooks</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card">
+        <div class="card" data-sr="enter bottom and scale up 20% over 1.5s">
           <img src="images/computer.svg" />
           <h2>Sync. copy</h2>
           <p>Stylus instantaneously copy your text on your computer, <strong>in real-time</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card">
+        <div class="card" data-sr="enter bottom and scale up 20% over 2s">
           <img src="images/analytics.svg" />
           <h2>Analytics</h2>
           <p>Get feedbacks on the way you write, <strong>your favorite words, your frequent mistakes</strong></p>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card">
+        <div class="card" data-sr="enter bottom and scale up 20% over 2.5s">
           <img src="images/data.svg" />
           <h2>Storing your texts</h2>
           <p>Every line writen with your stylus is stored in the cloud, so that <strong>it's never lost</strong></p>
@@ -100,9 +103,12 @@
       </div>
     </div>
   </div>
+  <div class="text-center scroll-btn">
+    <a href="#newsletter"><i class="fa fa-angle-down fa-6 pulse"></i></a>
+  </div>
 </div>
 
-<div class="text-center padded">
+<div class="text-center padded" id="newsletter">
   <h2>Get news from stylus</h2>
   <p>Leave us your mail and get stylus news</p>
   <form class="form-inline">
@@ -130,6 +136,28 @@ var marker = new google.maps.Marker({
   position: myLatlng,
   map: map,
   title:"You are here!"
+});
+</script>
+
+<script>
+$(function() {
+  // Smooth scroll
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+
+  // Scroll reveal
+  window.sr = new scrollReveal();
+
 });
 </script>
 
