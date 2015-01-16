@@ -1,20 +1,13 @@
-@import "utilities/config";
-@import "layout/index";
-@import "components/index";
-@import "pages/index";
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
 
+// External Frameworks
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-/* -------------------------------------
- * Base elements style (h1, h2, p, a, ul..)
- * ------------------------------------- */
-h1, h2, h3, h4{
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* -------------------------------------
- * Usefull classes
- * ------------------------------------- */
-.padded {
-  padding-top: 8em;
-  padding-bottom: 8em;
-}
+// Our CSS
+@import "layout/*";
+@import "components/*";
+@import "pages/*";
