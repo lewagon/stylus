@@ -22,3 +22,15 @@
     font-size: 22px;
   }
 }
+
+.scroll-btn{
+  position: relative;
+  top: 8em;
+  a{
+    font-size: 60px;
+    color: white;
+    &:hover{
+      color: white;
+    }
+  }
+}
