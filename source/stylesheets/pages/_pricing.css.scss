@@ -1,0 +1,25 @@
+#pricing{
+  padding: 5em 0;
+  h1{
+    font-size: 3em;
+    line-height: 2.5em;
+    text-align: center;
+    color: $gray-darker;
+  }
+  .pen{
+    background: white;
+    border: 1px solid $gray-lighter;
+    padding: 1.3em;
+    margin-bottom: 2em;
+    img{
+      margin: 1.5em auto;
+    }
+    h2{
+      font-size: 1.3em;
+    }
+    p{
+      font-size: 1.1em;
+      font-weight: 300;
+    }
+  }
+}
