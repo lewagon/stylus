@@ -9085,6 +9085,32 @@ h1, h2, h3, h4 {
     .scroll-btn a:hover {
       color: white; }
 
+/* line 1, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
+#pricing {
+  padding: 5em 0; }
+  /* line 3, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
+  #pricing h1 {
+    font-size: 3em;
+    line-height: 2.5em;
+    text-align: center;
+    color: #222222; }
+  /* line 9, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
+  #pricing .pen {
+    background: white;
+    border: 1px solid #eeeeee;
+    padding: 1.3em;
+    margin-bottom: 2em; }
+    /* line 14, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
+    #pricing .pen img {
+      margin: 1.5em auto; }
+    /* line 17, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
+    #pricing .pen h2 {
+      font-size: 1.3em; }
+    /* line 20, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
+    #pricing .pen p {
+      font-size: 1.1em;
+      font-weight: 300; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET

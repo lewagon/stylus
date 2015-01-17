@@ -7,7 +7,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Welcome to Styl.us</title>
+    <title>Find the stylus that suits you</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,7 +16,7 @@
     <script src="javascripts/all.js" type="text/javascript"></script>
   </head>
 
-  <body class="index">
+  <body class="pricing">
 
     <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
       <div class="container-fluid">
@@ -54,117 +54,75 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div id="banner">
-  <div class="container">
+    <div class="container" id="pricing">
+  <div class="row">
+    <h1>Styl.you</h1>
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+  <div class="pen">
     <div class="row">
-      <div class="col-xs-6">
-        <h1>Styl.us</h1>
-        <br>
-        <p>Turn your pen into you best friend</p>
-        <p>Make every line you write count..</p>
-        <br>
-        <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn btn-primary btn-lg">GET YOUR STYLUS</a>
+      <div class="col-xs-3 col-sm-12">
+        <img class="img-circle img-responsive" src="http://placehold.it/150x150" />
       </div>
-      <div class="col-xs-6"></div>
-    </div>
-  </div>
-  <div class="text-center scroll-btn">
-    <a href="#description"><i class="fa fa-angle-down fa-6 pulse"></i></a>
-  </div>
-</div>
-
-<div class="bg-primary padded" id="description">
-  <div class="container text-center" id="features">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card" data-sr="enter bottom and scale up 20% over 1s">
-          <img src="images/paper.svg" />
-          <h2>Natural writing</h2>
-          <p>Don't change your habits, write with a pen <strong>on paper notebooks</strong></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card" data-sr="enter bottom and scale up 20% over 1.5s">
-          <img src="images/computer.svg" />
-          <h2>Sync. copy</h2>
-          <p>Stylus instantaneously copy your text on your computer, <strong>in real-time</strong></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card" data-sr="enter bottom and scale up 20% over 2s">
-          <img src="images/analytics.svg" />
-          <h2>Analytics</h2>
-          <p>Get feedbacks on the way you write, <strong>your favorite words, your frequent mistakes</strong></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card" data-sr="enter bottom and scale up 20% over 2.5s">
-          <img src="images/data.svg" />
-          <h2>Storing your texts</h2>
-          <p>Every line writen with your stylus is stored in the cloud, so that <strong>it's never lost</strong></p>
-        </div>
+      <div class="col-xs-9 col-sm-12">
+        <h2>
+          Styl.basic
+          <span class="label label-danger">99€</span>
+        </h2>
+        <p>The <strong>original</strong> Stylus.<br>No fancy, just performant</p>
       </div>
     </div>
   </div>
-  <div class="text-center scroll-btn">
-    <a href="#newsletter"><i class="fa fa-angle-down fa-6 pulse"></i></a>
+</div>
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+  <div class="pen">
+    <div class="row">
+      <div class="col-xs-3 col-sm-12">
+        <img class="img-circle img-responsive" src="http://placehold.it/150x150" />
+      </div>
+      <div class="col-xs-9 col-sm-12">
+        <h2>
+          Styl.smart
+          <span class="label label-primary">199€</span>
+        </h2>
+        <p>The <strong>smartest</strong> Stylus.<br>Write no more typos..</p>
+      </div>
+    </div>
   </div>
 </div>
-
-<div class="text-center padded" id="newsletter">
-  <h2>Get news from stylus</h2>
-  <p>Leave us your mail and get stylus news</p>
-  <form class="form-inline">
-    <input type="email" placeholder="bob@gmail.com" class="form-control">
-    <input type="submit" value="Subscribe" class="btn btn-primary">
-  </form>
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+  <div class="pen">
+    <div class="row">
+      <div class="col-xs-3 col-sm-12">
+        <img class="img-circle img-responsive" src="http://placehold.it/150x150" />
+      </div>
+      <div class="col-xs-9 col-sm-12">
+        <h2>
+          Styl.speed
+          <span class="label label-warning">299€</span>
+        </h2>
+        <p>The <strong>quickest</strong> Stylus.<br>Write texts before you do..</p>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div id="map" style="width: 100%; height: 400px;"></div>
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-
-<script type="text/javascript">
-var myLatlng = new google.maps.LatLng(48.852937,2.364178);
-
-var myOptions = {
-  zoom: 16,
-  center: myLatlng,
-  scrollwheel: false,
-  mapTypeId: google.maps.MapTypeId.ROADMAP,
-  styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
-};
-
-var map = new google.maps.Map(document.getElementById('map'), myOptions);
-var marker = new google.maps.Marker({
-  position: myLatlng,
-  map: map,
-  title:"You are here!"
-});
-</script>
-
-<script>
-$(function() {
-  // Smooth scroll
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-
-  // Scroll reveal
-  window.sr = new scrollReveal();
-
-});
-</script>
-
+      <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+  <div class="pen">
+    <div class="row">
+      <div class="col-xs-3 col-sm-12">
+        <img class="img-circle img-responsive" src="http://placehold.it/150x150" />
+      </div>
+      <div class="col-xs-9 col-sm-12">
+        <h2>
+          Styl.vintage
+          <span class="label label-success">99€</span>
+        </h2>
+        <p>Most <strong>elegant</strong> Stylus.<br>For nostalgic pen lovers..</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
 
     <!-- Modal -->
     <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
