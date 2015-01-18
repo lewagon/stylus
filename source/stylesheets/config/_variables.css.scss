@@ -11,10 +11,10 @@ $base-height: 1.4;
 // Local fonts
 @font-face {
   font-family: "BrandonLight";
-  src: font-url('fonts/BrandonLight.eot');
-  src: font-url('fonts/BrandonLight.eot?#iefix') format('embedded-opentype'),
-       font-url('fonts/BrandonLight.woff') format('woff'),
-       font-url('fonts/BrandonLight.ttf') format('truetype')
+  src: font-url('BrandonLight.eot');
+  src: font-url('BrandonLight.eot?#iefix') format('embedded-opentype'),
+       font-url('BrandonLight.woff') format('woff'),
+       font-url('BrandonLight.ttf') format('truetype')
 }
 $brandon-light: "BrandonLight";
 
