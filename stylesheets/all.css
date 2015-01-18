@@ -5,8 +5,8 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
 @font-face {
   font-family: "BrandonLight";
-  src: url("../fonts/fonts/BrandonLight.eot");
-  src: url("../fonts/fonts/BrandonLight.eot?#iefix") format("embedded-opentype"), url("../fonts/fonts/BrandonLight.woff") format("woff"), url("../fonts/fonts/BrandonLight.ttf") format("truetype"); }
+  src: url("../fonts/BrandonLight.eot");
+  src: url("../fonts/BrandonLight.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonLight.woff") format("woff"), url("../fonts/BrandonLight.ttf") format("truetype"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
