@@ -1,0 +1,29 @@
+.btn-rounded{
+  border-radius: 50px;
+  padding: 0.3em 1.5em;
+}
+
+.btn-bordered{
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 0.2s ease;
+  font-weight: bold;
+  &:hover{
+    border: 2px solid white;
+  }
+  &-primary{
+    color: darken($brand-primary, 20%);
+    border: 2px solid darken($brand-primary, 20%);
+  }
+  &-success{
+    color: darken($brand-success, 20%);
+    border: 2px solid darken($brand-success, 20%);
+  }
+  &-danger{
+    color: darken($brand-danger, 20%);
+    border: 2px solid darken($brand-danger, 20%);
+  }
+  &-warning{
+    color: darken($brand-warning, 20%);
+    border: 2px solid darken($brand-warning, 20%);
+  }
+}
