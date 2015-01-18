@@ -1161,7 +1161,7 @@ html {
 
 /* line 27, /usr/local/var/rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
@@ -6025,7 +6025,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.4;
@@ -6136,7 +6136,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   font-size: 16px;
   font-weight: normal;
   line-height: 1.4;
@@ -8907,7 +8907,7 @@ button.close {
  * ------------------------------------- */
 /* line 5, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_base.css.scss */
 h1, h2, h3, h4 {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", "sans-serif"; }
 
 /* line 1, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_footer.css.scss */
 #footer {
@@ -8948,7 +8948,7 @@ h1, h2, h3, h4 {
 /* line 38, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: transparent;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "sans-serif";
   border: none;
   font-weight: 400;
   padding-left: 20px;
