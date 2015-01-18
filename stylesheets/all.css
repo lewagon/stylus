@@ -3,6 +3,10 @@
  * Fonts
  * ------------------------------------- */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@font-face {
+  font-family: "BrandonLight";
+  src: url("../fonts/fonts/BrandonLight.eot");
+  src: url("../fonts/fonts/BrandonLight.eot?#iefix") format("embedded-opentype"), url("../fonts/fonts/BrandonLight.woff") format("woff"), url("../fonts/fonts/BrandonLight.ttf") format("truetype"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -9058,30 +9062,31 @@ h1, h2, h3, h4 {
   height: 650px; }
   /* line 8, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
-    font-size: 50px;
-    color: white; }
-  /* line 12, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+    font-size: 70px;
+    color: white;
+    font-family: "BrandonLight"; }
+  /* line 13, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
     font-weight: 100; }
 
-/* line 18, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+/* line 19, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
 .card {
   padding: 10px;
   font-weight: 300; }
-  /* line 21, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  /* line 22, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
   .card h2 {
     font-size: 22px; }
 
-/* line 26, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+/* line 27, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
 .scroll-btn {
   position: relative;
   top: 8em; }
-  /* line 29, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  /* line 30, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
   .scroll-btn a {
     font-size: 60px;
     color: white; }
-    /* line 32, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+    /* line 33, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
     .scroll-btn a:hover {
       color: white; }
 
