@@ -4,6 +4,7 @@
   padding: 150px 0;
   background-size: cover;
   height: 650px;
+  padding-left: 50px;
 
   h1 {
     font-size: 70px;
@@ -15,7 +16,6 @@
     font-weight: 100;
   }
 }
-
 .card{
   padding: 10px;
   font-weight: 300;
@@ -24,14 +24,27 @@
   }
 }
 
-.scroll-btn{
+#banner, #description, #newsletter {
   position: relative;
-  top: 8em;
-  a{
-    font-size: 60px;
+}
+
+#newsletter h2 {
+  margin-top: 1em;
+  text-transform: upcase;
+  font-size: 60px;
+  font-family: $brandon-light;
+}
+
+.scroll-btn{
+  position: absolute;
+  width: 100px;
+  margin-left: -50px;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  &:hover{
     color: white;
-    &:hover{
-      color: white;
-    }
   }
 }
