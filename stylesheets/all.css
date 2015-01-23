@@ -8902,6 +8902,43 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 11, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_animation.css.scss */
+.square {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 50px auto; }
+
+@keyframes fadeAndSlide {
+  0% {
+    opacity: 0;
+    top: -20px; }
+  100% {
+    opacity: 1;
+    top: 0; } }
+@-webkit-keyframes fadeAndSlide {
+  0% {
+    opacity: 0;
+    top: -20px; }
+  100% {
+    opacity: 1;
+    top: 0; } }
+@-moz-keyframes fadeAndSlide {
+  0% {
+    opacity: 0;
+    top: -20px; }
+  100% {
+    opacity: 1;
+    top: 0; } }
+/* line 55, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_animation.css.scss */
+.fade-and-slide {
+  position: relative;
+  top: -20px;
+  opacity: 0;
+  animation: fadeAndSlide 2s 1s ease forwards;
+  -webkit-animation: fadeAndSlide 2s 1s ease forwards;
+  -moz-animation: fadeAndSlide 2s 1s ease forwards; }
+
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
@@ -8989,11 +9026,11 @@ h1, h2, h3, h4 {
     border-radius: 2px;
     margin-top: 10px;
     font-weight: bold;
-    background-color: lightgrey;
+    background-color: #EE5F5B;
     font-size: 12px; }
     /* line 87, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
-      background-color: #868686; }
+      background-color: #9f1411; }
   /* line 92, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg, .navbar-wagon .navbar-brand object {
     height: 50px;
@@ -9053,44 +9090,31 @@ h1, h2, h3, h4 {
   padding-top: 10em;
   padding-bottom: 10em; }
 
-/* line 1, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-.btn-rounded {
-  border-radius: 50px;
-  padding: 0.3em 1.5em; }
-
-/* line 6, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-.btn-bordered {
-  background: rgba(255, 255, 255, 0.8);
-  transition: all 0.2s ease;
-  font-weight: bold; }
-  /* line 10, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-  .btn-bordered:hover {
-    border: 2px solid white; }
+/* line 3, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
+.btn-medium {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 100;
+  opacity: 0.7;
+  text-decoration: none;
+  transition: opacity 0.3s ease, letter-spacing 0.3s ease; }
   /* line 13, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-  .btn-bordered-primary {
-    color: #1c66a4;
-    border: 2px solid #1c66a4; }
-  /* line 17, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-  .btn-bordered-success {
-    color: #1c6754;
-    border: 2px solid #1c6754; }
-  /* line 21, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-  .btn-bordered-danger {
-    color: #ce1a15;
-    border: 2px solid #ce1a15; }
-  /* line 25, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
-  .btn-bordered-warning {
-    color: #924d10;
-    border: 2px solid #924d10; }
-
-/* line 1, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_form.css.scss */
-form {
-  padding: 1.5em; }
-  /* line 3, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_form.css.scss */
-  form label {
-    font-family: "BrandonLight";
-    color: #469AE0;
-    font-size: 1.5em; }
+  .btn-medium:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9; }
+  /* line 19, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
+  .btn-medium:focus {
+    color: white;
+    border-color: white;
+    outline: none;
+    text-decoration: none; }
+  /* line 26, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/components/_button.css.scss */
+  .btn-medium:visited {
+    color: white;
+    border-color: white; }
 
 /* line 1, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
 #banner {
@@ -9098,13 +9122,14 @@ form {
   color: white;
   padding: 150px 0;
   background-size: cover;
-  height: 650px; }
-  /* line 8, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  height: 650px;
+  padding-left: 50px; }
+  /* line 9, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 70px;
     color: white;
     font-family: "BrandonLight"; }
-  /* line 13, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  /* line 14, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
     font-weight: 100; }
@@ -9118,16 +9143,29 @@ form {
     font-size: 22px; }
 
 /* line 27, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+#banner, #description, #newsletter {
+  position: relative; }
+
+/* line 31, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+#newsletter h2 {
+  margin-top: 1em;
+  text-transform: upcase;
+  font-size: 60px;
+  font-family: "BrandonLight"; }
+
+/* line 38, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
 .scroll-btn {
-  position: relative;
-  top: 8em; }
-  /* line 30, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
-  .scroll-btn a {
-    font-size: 60px;
+  position: absolute;
+  width: 100px;
+  margin-left: -50px;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  font-size: 60px;
+  color: white; }
+  /* line 47, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
+  .scroll-btn:hover {
     color: white; }
-    /* line 33, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_home.css.scss */
-    .scroll-btn a:hover {
-      color: white; }
 
 /* line 1, /Users/papillard/code/lewagon/01-stylus-middleman/source/stylesheets/pages/_pricing.css.scss */
 #pricing {
